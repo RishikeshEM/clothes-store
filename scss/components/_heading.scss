@@ -1,0 +1,13 @@
+.heading {
+    grid-column: 1/-1;      /* This places the heading in columns 4 to 6 (7 is excluded) */
+    grid-row: 2 / 3;         /* This places the heading in row 2 */
+    text-align: center;       /* Centers text within the heading */
+
+    &-text{
+        font-family: 'Great Vibes', cursive;
+        font-size: size(xl) * 2;
+        font-weight: lighter;
+        letter-spacing: 0.5rem;
+
+    }
+}
